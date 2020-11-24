@@ -10,6 +10,6 @@
         { "src": "video/**", "use": "@now/static" }
     ],
     "routes": [
-        { "src": "^/", "": "/index.html" },
+        { "src": "^/", "": "/index.html" }
     ]
 }
