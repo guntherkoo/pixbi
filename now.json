@@ -7,7 +7,7 @@
         { "src": "fonts/**", "use": "@now/static" },
         { "src": "images/**", "use": "@now/static" },
         { "src": "js/**", "use": "@now/static" },
-        { "src": "video/**", "use": "@now/static" }
+        { "src": "videos/**", "use": "@now/static" }
     ],
     "routes": [
         { "src": "^/", "": "/index.html" }
