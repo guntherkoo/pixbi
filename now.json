@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "pixbi",
+    "builds": [
+        { "src": "**/*.html", "use": "@now/static" },
+        { "src": "css/**", "use": "@now/static" },
+        { "src": "fonts/**", "use": "@now/static" },
+        { "src": "images/**", "use": "@now/static" },
+        { "src": "js/**", "use": "@now/static" },
+        { "src": "video/**", "use": "@now/static" }
+    ],
+    "routes": [
+        { "src": "^/", "": "/index.html" },
+    ]
+}
